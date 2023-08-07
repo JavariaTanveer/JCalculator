@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dbbfbf;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 320px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .display {
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .operator {
+    background-color: #f9a826;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Additional Styling for Clear and Equals Buttons */
+  .clear {
+    background-color: #ff4f4f;
+    color: #fff;
+  }
+  
+  .equals {
+    background-color: #29a745;
+    color: #fff;
+  }
+  
